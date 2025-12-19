@@ -1,0 +1,28 @@
+.skills {
+  min-height: 100vh;
+  padding: 6rem 3rem;
+  background: #0f0f0f;
+  color: white;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.skill-card {
+  padding: 1.2rem;
+  background: #181818;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
